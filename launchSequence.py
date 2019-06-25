@@ -6,8 +6,6 @@ def launchSequenceChecker(systemNames, stepNumbers):
     
     uniqueSystems = set(systemNames)
     
-    #print ("Set took", time.time() - start_time, "to run")
-    
     
     sequenceCorrect = True;
     
@@ -15,12 +13,8 @@ def launchSequenceChecker(systemNames, stepNumbers):
         if sequenceCorrect == False:
             break;
         
-        #import time
-        #start_time = time.time()
-        
         indices = [i for i, x in enumerate(systemNames) if x == system]
         
-        #print ("Indices", time.time() - start_time, "to run")
 
         curStepNum = 0
         
