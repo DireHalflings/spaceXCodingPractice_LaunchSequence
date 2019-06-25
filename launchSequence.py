@@ -1,8 +1,5 @@
 def launchSequenceChecker(systemNames, stepNumbers):
     
-    #import time
-    #start_time = time.time()
-    
     
     uniqueSystems = set(systemNames)
     
